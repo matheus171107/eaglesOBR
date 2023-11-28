@@ -24,6 +24,3 @@ class EaglesMotors {
       }
     }
 };
-
-EaglesMotors MOTOR_NAME_1(6, 7, 5); 
-EaglesMotors MOTOR_NAME_2(4, 3, 10);
