@@ -48,10 +48,10 @@
     <div>
         <h3>Exemplos: </h3>
         O código abaixo irá fazer os motores rotacionarem no sentido horário com velocidade 200: <br>
-        <code>MOTOR_NAME_1.setMoviment("F", 200)</code> <br><br>
+        <code>MOTOR_NAME_1.setMoviment("F", 200);</code> <br><br>
         Isso irá fazer os motores rotacionarem no sentido anti-horário com velocidade 100: <br>
-        <code>MOTOR_NAME_1.setMoviment("B", 100)</code> <br><br>
+        <code>MOTOR_NAME_1.setMoviment("B", 100);</code> <br><br>
         Este fará os motores parar: <br>
-        <code>MOTOR_NAME_1.setMoviment("R", 0)</code> <br><br>
+        <code>MOTOR_NAME_1.setMoviment("R", 0);</code> <br><br>
     </div>
 </div>
