@@ -5,11 +5,6 @@ class EaglesMotors {
       pinForward = pfw;
       pinBackward = pbw;
       pinVelocity = pvt;
-
-      pinMode(pfw, OUTPUT);
-      pinMode(pbw, OUTPUT);
-      pinMode(pvt, OUTPUT);
-
     }
     void setMoviment(char sense, int velocity){
       if (sense == "F") {
@@ -30,14 +25,14 @@ class EaglesMotors {
     }
 };
 
-EaglesMotors MOTOR_NAME_1(6, 7, 5);
+EaglesMotors MOTOR_NAME_1(6, 7, 5); 
 EaglesMotors MOTOR_NAME_2(4, 3, 10);
 
 
 
 
 void setup(){
-
+  pinMode(, OUTPUT);
 }
 void loop(){
   MOTOR_NAME_1.setMoviment("B", 200);
