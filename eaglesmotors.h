@@ -27,14 +27,3 @@ class EaglesMotors {
 
 EaglesMotors MOTOR_NAME_1(6, 7, 5); 
 EaglesMotors MOTOR_NAME_2(4, 3, 10);
-
-
-
-
-void setup(){
-  pinMode(, OUTPUT);
-}
-void loop(){
-  MOTOR_NAME_1.setMoviment("B", 200);
-  MOTOR_NAME_2.setMoviment("F", 200);
-}
