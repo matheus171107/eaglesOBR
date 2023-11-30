@@ -73,7 +73,7 @@
 </div>
 <br><br>
 <div>
-    <h2>Método <code>.setMoviment()</code> :</h2>
+    <h2>Método <code>.run()</code> :</h2>
     <p>
         Este método é utilizado para definir o sentido do movimento. Para utilizá-lo será necessário passar um parâmetro: <code>.run(char sense)</code>
     </p>
