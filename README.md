@@ -55,3 +55,36 @@
         <code>MOTOR_NAME_1.setMoviment("R", 0);</code> <br><br>
     </div>
 </div>
+<br><br>
+<div>
+    <h2>Método <code>.setSpeed()</code> :</h2>
+    <p>
+        Este método é utilizado para definir a velocidade do motor. Para utilizá-lo será necessário passar um parâmetro: <code>.setSpeed(int velocity)</code>
+    </p>
+    <div>
+        <h3>Exemplos: </h3>
+        O código abaixo irá fazer os motores rotacionarem com velocidade 200: <br>
+        <code>MOTOR_NAME_1.setSpeed(200);</code> <br><br>
+        Isso irá fazer os motores rotacionarem com velocidade 100: <br>
+        <code>MOTOR_NAME_1.setSpeed(100);</code> <br><br>
+        Este fará os motores parar: <br>
+        <code>MOTOR_NAME_1.setSpeed(0);</code> <br><br>
+    </div>
+</div>
+<br><br>
+<div>
+    <h2>Método <code>.setMoviment()</code> :</h2>
+    <p>
+        Este método é utilizado para definir o sentido do movimento. Para utilizá-lo será necessário passar um parâmetro: <code>.run(char sense)</code>
+    </p>
+    <div>
+        <h3>Exemplos: </h3>
+        O código abaixo irá fazer os motores rotacionarem no sentido horário: <br>
+        <code>MOTOR_NAME_1.run("F");</code> <br><br>
+        Isso irá fazer os motores rotacionarem no sentido anti-horário: <br>
+        <code>MOTOR_NAME_1.run("B");</code> <br><br>
+        Este fará os motores parar: <br>
+        <code>MOTOR_NAME_1.run("R");</code> <br><br>
+    </div>
+</div>
+
