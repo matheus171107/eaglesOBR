@@ -8,36 +8,36 @@ class EaglesMotors {
     }
     void setMoviment(char sense, int velocity){
       if (sense == "F") {
-        digitalWrite(this.pinForward, HIGH);
-        digitalWrite(this.pinBackward, LOW);
-        analogWrite(this.pinVelocity, velocity);
+        digitalWrite(pinForward, HIGH);
+        digitalWrite(pinBackward, LOW);
+        analogWrite(pinVelocity, velocity);
       }
       if (sense == "B") {
-        digitalWrite(this.pinForward, LOW);
-        digitalWrite(this.pinBackward, HIGH);
-        analogWrite(this.pinVelocity, velocity);
+        digitalWrite(pinForward, LOW);
+        digitalWrite(pinBackward, HIGH);
+        analogWrite(pinVelocity, velocity);
       }
       if (sense == "R") {
-        digitalWrite(this.pinForward, HIGH);
-        digitalWrite(this.pinBackward, LOW);
-        analogWrite(this.pinVelocity, velocity);
+        digitalWrite(pinForward, HIGH);
+        digitalWrite(pinBackward, LOW);
+        analogWrite(pinVelocity, velocity);
       }
     }
     void setSpeed(int velocity){
-      analogWrite(this.pinVelocity, velocity);
+      analogWrite(pinVelocity, velocity);
     }
     void run(char sense){
       if (sense == "F") {
-        digitalWrite(this.pinForward, HIGH);
-        digitalWrite(this.pinBackward, LOW);
+        digitalWrite(pinForward, HIGH);
+        digitalWrite(pinBackward, LOW);
       }
       if (sense == "B") {
-        digitalWrite(this.pinForward, LOW);
-        digitalWrite(this.pinBackward, HIGH);
+        digitalWrite(pinForward, LOW);
+        digitalWrite(pinBackward, HIGH);
       }
       if (sense == "R") {
-        digitalWrite(this.pinForward, HIGH);
-        digitalWrite(this.pinBackward, LOW);
+        digitalWrite(pinForward, HIGH);
+        digitalWrite(pinBackward, LOW);
       }
     }
 };

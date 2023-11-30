@@ -11,9 +11,12 @@ EaglesMotors MOTOR_NAME_1(pinForward1, pinBackward1, pinVelocity1);
 EaglesMotors MOTOR_NAME_2(pinForward2, pinBackward2, pinVelocity2);
 
 void setup() {
-  pinMode(pinForward, OUTPUT);
-  pinMode(pinBackward, OUTPUT);
-  pinMode(pinVelocity, OUTPUT);
+  pinMode(pinForward1, OUTPUT);
+  pinMode(pinBackward1, OUTPUT);
+  pinMode(pinVelocity1, OUTPUT);
+  pinMode(pinForward2, OUTPUT);
+  pinMode(pinBackward2, OUTPUT);
+  pinMode(pinVelocity2, OUTPUT);
 }
 
 void loop() {
